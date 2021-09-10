@@ -30,7 +30,7 @@ public class Lab3 {
 
                     if (grade_HW < 0 || grade_HW > 100)
                     {
-                        System.out.println("Error. Invalid input. Enter a value between 0 and 100.");
+                        System.out.println("[ERR] Invalid input. Enter a value between [0 and 100].");
                     } else
                         {
                             i++;
@@ -43,7 +43,7 @@ public class Lab3 {
 
                     if (grade_Midterm < 0 || grade_Midterm > 100)
                     {
-                        System.out.println("Error. Invalid input. Enter a value between 0 and 100.");
+                        System.out.println("[ERR] Invalid input. Enter a value between [0 and 100].");
                     } else
                         {
                             i++;
@@ -55,7 +55,7 @@ public class Lab3 {
 
                     if (grade_Final < 0 || grade_Final > 200)
                     {
-                        System.out.println("Error. Invalid input. Enter a value between 0 and 200.");
+                        System.out.println("[ERR] Invalid input. Enter a value between [0 and 200].");
                     } else 
                         {
                             i++;
