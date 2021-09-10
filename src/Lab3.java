@@ -30,7 +30,7 @@ public class Lab3 {
                     gradeHW = scan.nextDouble();
     
                     // this is an input validation check, either a value < 0 or > 100 will prompt the user
-                    // for another, valid input.
+                    // for another, valid input...
                     if (gradeHW < 0 || gradeHW > 100) {
                         System.out.println("[ERR] Invalid input. Enter a value between [0 and 100].");
                     } else {
